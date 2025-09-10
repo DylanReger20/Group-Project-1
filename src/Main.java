@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, Welcome To The New School Year!");
-        System.out.println("For the following questions please use a number that correlates to the difficulty of your class(Regular,Honors,AP)");
+        System.out.println("For the following questions please use a number that correlates to the difficulty of your class(1-Regular,2-Honors,3-AP OR 4 - For Study");
         System.out.println("");
 
         ArrayList<String> difficultyLevel = new ArrayList<>();
