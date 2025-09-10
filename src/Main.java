@@ -37,6 +37,48 @@ public class Main {
         System.out.println("Now please enter your desired grade for this class: ");
         String grade = sc.nextLine();
             //Period 2
+        System.out.println("Please enter your Period 2 class: ");
+        String name = sc.nextLine();
+        System.out.println("Please enter the difficulty of the class: ");
+        Integer difficulty = sc.nextInt();
+        System.out.println("Now please enter your desired grade for this class: ");
+        String grade = sc.nextLine();
+            //Period 3
+        System.out.println("Please enter your Period 3 class: ");
+        String name = sc.nextLine();
+        System.out.println("Please enter the difficulty of the class: ");
+        Integer difficulty = sc.nextInt();
+        System.out.println("Now please enter your desired grade for this class: ");
+        String grade = sc.nextLine();
+            //Period 4
+        System.out.println("Please enter your Period 4 class: ");
+        String name = sc.nextLine();
+        System.out.println("Please enter the difficulty of the class: ");
+        Integer difficulty = sc.nextInt();
+        System.out.println("Now please enter your desired grade for this class: ");
+        String grade = sc.nextLine();
+            //Period 5
+        System.out.println("Please enter your Period 5 class: ");
+        String name = sc.nextLine();
+        System.out.println("Please enter the difficulty of the class: ");
+        Integer difficulty = sc.nextInt();
+        System.out.println("Now please enter your desired grade for this class: ");
+        String grade = sc.nextLine();
+            //Period 6
+        System.out.println("Please enter your Period 6 class: ");
+        String name = sc.nextLine();
+        System.out.println("Please enter the difficulty of the class: ");
+        Integer difficulty = sc.nextInt();
+        System.out.println("Now please enter your desired grade for this class: ");
+        String grade = sc.nextLine();
+            //Period 7
+        System.out.println("Please enter your Period 7 class: ");
+        String name = sc.nextLine();
+        System.out.println("Please enter the difficulty of the class: ");
+        Integer difficulty = sc.nextInt();
+        System.out.println("Now please enter your desired grade for this class: ");
+        String grade = sc.nextLine();
+
 
 
         }
