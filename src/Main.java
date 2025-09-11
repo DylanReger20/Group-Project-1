@@ -5,7 +5,7 @@ public class Main
     public static void main(String[] args)
     {
         System.out.println("Hello, Welcome To The New School Year!");
-        System.out.println("For the following questions please use a number that correlates to the difficulty of your class(1-Regular,2-Honors,3-AP");
+        System.out.println("For the following questions please use a number that correlates to the difficulty of your class(1-Regular,2-Honors,3-AP)");
         System.out.println(" ");
 
         ArrayList<Integer> difficultyLevel = new ArrayList<Integer>();
@@ -40,7 +40,7 @@ public class Main
         difficultyLevel.add(difficulty1);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade1 = sc.nextLine();
-            //Period 2
+        //Period 2
         System.out.println("Please enter your Period 2 class: ");
         String name2 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
