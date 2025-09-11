@@ -1,4 +1,4 @@
-public class Main2 {
+/*(public class Main2 {
     int gpa;
     int x;
     int total;
