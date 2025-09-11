@@ -12,19 +12,6 @@ public class Main
 
 
         ArrayList<String> letterGrade = new ArrayList<>();
-        letterGrade.add("A+");
-        letterGrade.add("A");
-        letterGrade.add("A-");
-        letterGrade.add("B+");
-        letterGrade.add("B");
-        letterGrade.add("B-");
-        letterGrade.add("C+");
-        letterGrade.add("C");
-        letterGrade.add("C-");
-        letterGrade.add("D+");
-        letterGrade.add("D");
-        letterGrade.add("D-");
-        letterGrade.add("E");
 
 
         Scanner sc = new Scanner(System.in);
