@@ -4,6 +4,8 @@ public class Main
 {
     public static void main(String[] args)
     {
+        System.out.println(" ");
+        System.out.println(" ");
         System.out.println("Hello, Welcome To The New School Year!");
         System.out.println("For the following questions please use a number that correlates to the difficulty of your class(1-Regular,2-Honors,3-AP)");
         System.out.println(" ");
@@ -12,19 +14,6 @@ public class Main
 
 
         ArrayList<String> letterGrade = new ArrayList<>();
-        letterGrade.add("A+");
-        letterGrade.add("A");
-        letterGrade.add("A-");
-        letterGrade.add("B+");
-        letterGrade.add("B");
-        letterGrade.add("B-");
-        letterGrade.add("C+");
-        letterGrade.add("C");
-        letterGrade.add("C-");
-        letterGrade.add("D+");
-        letterGrade.add("D");
-        letterGrade.add("D-");
-        letterGrade.add("E");
 
 
         Scanner sc = new Scanner(System.in);
@@ -40,6 +29,7 @@ public class Main
         difficultyLevel.add(difficulty1);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade1 = sc.nextLine();
+        letterGrade.add(grade1);
         //Period 2
         System.out.println("Please enter your Period 2 class: ");
         String name2 = sc.nextLine();
@@ -48,6 +38,7 @@ public class Main
         difficultyLevel.add(difficulty2);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade2 = sc.nextLine();
+        letterGrade.add(grade2);
             //Period 3
         System.out.println("Please enter your Period 3 class: ");
         String name3 = sc.nextLine();
@@ -56,6 +47,7 @@ public class Main
         difficultyLevel.add(difficulty3);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade3 = sc.nextLine();
+        letterGrade.add(grade3);
             //Period 4
         System.out.println("Please enter your Period 4 class: ");
         String name4 = sc.nextLine();
@@ -64,6 +56,7 @@ public class Main
         difficultyLevel.add(difficulty4);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade4 = sc.nextLine();
+        letterGrade.add(grade4);
             //Period 5
         System.out.println("Please enter your Period 5 class: ");
         String name5 = sc.nextLine();
@@ -72,6 +65,7 @@ public class Main
         difficultyLevel.add(difficulty5);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade5 = sc.nextLine();
+        letterGrade.add(grade5);
             //Period 6
         System.out.println("Please enter your Period 6 class: ");
         String name6 = sc.nextLine();
@@ -80,6 +74,7 @@ public class Main
         difficultyLevel.add(difficulty6);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade6 = sc.nextLine();
+        letterGrade.add(grade6);
             //Period 7
         System.out.println("Please enter your Period 7 class: ");
         String name7 = sc.nextLine();
@@ -88,6 +83,7 @@ public class Main
         difficultyLevel.add(difficulty7);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade7 = sc.nextLine();
+        letterGrade.add(grade7);
 
 
 
@@ -187,7 +183,7 @@ public class Main
             }
             gpa = total / credits;
             return gpa;
-
+            System.out.println("Your GPA is: " + gpa);
 
         }
 }
