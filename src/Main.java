@@ -90,11 +90,11 @@ public class Main
         String grade7 = sc.nextLine();
         letterGrade.add(grade7);
 
-
+        main2(difficultyLevel,  letterGrade);
 
     }
 
-        public double main2(ArrayList<Integer> difficultyLevel, ArrayList<String> letterGrade)
+        public static void main2(ArrayList<Integer> difficultyLevel, ArrayList<String> letterGrade)
         {
 
             double gpa;
@@ -184,11 +184,8 @@ public class Main
                         credits+=5;
                     }
                 }
-
+                gpa = total / credits;
+                System.out.println("Your GPA is: " + gpa);
             }
-            gpa = total / credits;
-            return gpa;
-            System.out.prinln("Your GPA is: " + gpa);
-
         }
 }
