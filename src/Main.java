@@ -8,7 +8,7 @@ public class Main
         System.out.println("For the following questions please use a number that correlates to the difficulty of your class(1-Regular,2-Honors,3-AP");
         System.out.println("");
 
-        ArrayList<String> difficultyLevel = new ArrayList<>();
+        ArrayList<Integer> difficultyLevel = new ArrayList<Integer>();
 
 
         ArrayList<String> letterGrade = new ArrayList<>();
@@ -29,62 +29,65 @@ public class Main
 
         Scanner sc = new Scanner(System.in);
         {
+            String name = "name";
+
+
             //Period 1
         System.out.println("Please enter your Period 1 class: ");
-        String name = sc.nextLine();
+        String name1 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty1 = sc.nextInt();
         difficultyLevel.add(difficulty1);
         System.out.println("Now please enter your desired grade for this class: ");
-        String grade = sc.nextLine();
+        String grade1 = sc.nextLine();
             //Period 2
         System.out.println("Please enter your Period 2 class: ");
-        String name = sc.nextLine();
+        String name2 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty2 = sc.nextInt();
         difficultyLevel.add(difficulty2);
         System.out.println("Now please enter your desired grade for this class: ");
-        String grade = sc.nextLine();
+        String grade2 = sc.nextLine();
             //Period 3
         System.out.println("Please enter your Period 3 class: ");
-        String name = sc.nextLine();
+        String name3 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty3 = sc.nextInt();
         difficultyLevel.add(difficulty3);
         System.out.println("Now please enter your desired grade for this class: ");
-        String grade = sc.nextLine();
+        String grade3 = sc.nextLine();
             //Period 4
         System.out.println("Please enter your Period 4 class: ");
-        String name = sc.nextLine();
+        String name4 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty4 = sc.nextInt();
         difficultyLevel.add(difficulty4);
         System.out.println("Now please enter your desired grade for this class: ");
-        String grade = sc.nextLine();
+        String grade4 = sc.nextLine();
             //Period 5
         System.out.println("Please enter your Period 5 class: ");
-        String name = sc.nextLine();
+        String name5 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty5 = sc.nextInt();
         difficultyLevel.add(difficulty5);
         System.out.println("Now please enter your desired grade for this class: ");
-        String grade = sc.nextLine();
+        String grade5 = sc.nextLine();
             //Period 6
         System.out.println("Please enter your Period 6 class: ");
-        String name = sc.nextLine();
+        String name6 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty6 = sc.nextInt();
         difficultyLevel.add(difficulty6);
         System.out.println("Now please enter your desired grade for this class: ");
-        String grade = sc.nextLine();
+        String grade6 = sc.nextLine();
             //Period 7
         System.out.println("Please enter your Period 7 class: ");
-        String name = sc.nextLine();
+        String name7 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty7 = sc.nextInt();
         difficultyLevel.add(difficulty7);
         System.out.println("Now please enter your desired grade for this class: ");
-        String grade = sc.nextLine();
+        String grade7 = sc.nextLine();
 
 
 
@@ -98,15 +101,15 @@ public class Main
         {
             x = 0;
             for (int h = 0; h < 1; h++){
-                if (difficultyLevel.get(i) == (1))
+                if (difficultyLevel.get(i).equals(1))
                 {
                     x = 0;
                 }
-                if (difficultyLevel.get(i) == (2))
+                if (difficultyLevel.get(i).equals(2))
                 {
                     x = 1;
                 }
-                if (difficultyLevel.get(i) == (3))
+                if (difficultyLevel.get(i).equals(3))
                 {
                     x = 1.5;
                 }
@@ -140,7 +143,7 @@ public class Main
                     total+=((3 + x) * 5);
                     credits+=5;
                 }
-                if (letterGrade.get(i).equals("C+")
+                if (letterGrade.get(i).equals("C+"))
                 {
                     total+=((2.6 + x) * 5);
                     credits+=5;
@@ -178,8 +181,8 @@ public class Main
                 }
 
             }
-            GPA = total / credits;
-            return GPA;
+            gpa = total / credits;
+            return gpa;
 
 
         }
