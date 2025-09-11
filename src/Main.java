@@ -37,6 +37,7 @@ public class Main
         String name1 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty1 = sc.nextInt();
+        sc.nextLine();
         difficultyLevel.add(difficulty1);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade1 = sc.nextLine();
@@ -45,6 +46,7 @@ public class Main
         String name2 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty2 = sc.nextInt();
+        sc.nextLine();
         difficultyLevel.add(difficulty2);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade2 = sc.nextLine();
@@ -53,6 +55,7 @@ public class Main
         String name3 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty3 = sc.nextInt();
+        sc.nextLine();
         difficultyLevel.add(difficulty3);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade3 = sc.nextLine();
@@ -61,6 +64,7 @@ public class Main
         String name4 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty4 = sc.nextInt();
+        sc.nextLine();
         difficultyLevel.add(difficulty4);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade4 = sc.nextLine();
@@ -69,6 +73,7 @@ public class Main
         String name5 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty5 = sc.nextInt();
+        sc.nextLine();
         difficultyLevel.add(difficulty5);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade5 = sc.nextLine();
@@ -77,6 +82,7 @@ public class Main
         String name6 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty6 = sc.nextInt();
+        sc.nextLine();
         difficultyLevel.add(difficulty6);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade6 = sc.nextLine();
@@ -85,6 +91,7 @@ public class Main
         String name7 = sc.nextLine();
         System.out.println("Please enter the difficulty of the class: ");
         Integer difficulty7 = sc.nextInt();
+        sc.nextLine();
         difficultyLevel.add(difficulty7);
         System.out.println("Now please enter your desired grade for this class: ");
         String grade7 = sc.nextLine();
@@ -187,7 +194,7 @@ public class Main
             }
             gpa = total / credits;
             return gpa;
-
+            System.out.prinln("Your GPA is: " + gpa);
 
         }
 }
