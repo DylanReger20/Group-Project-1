@@ -140,7 +140,7 @@ public class Main
                     total+=((3 + x) * 5);
                     credits+=5;
                 }
-                if (letterGrade.get(i).equals("C+))
+                if (letterGrade.get(i).equals("C+")
                 {
                     total+=((2.6 + x) * 5);
                     credits+=5;
