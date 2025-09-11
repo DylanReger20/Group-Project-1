@@ -1,4 +1,5 @@
 public class Main2 {
+    int gpa;
     int x;
     int total;
     int credits;
@@ -7,23 +8,19 @@ public class Main2 {
     {
         x = 0;
         for (int h = 0; h < 1; h++){
-            if (difficultyLevel.get(i).equals("1"))
+            if (difficultyLevel.get(i) == (1))
             {
                 x = 0;
             }
-            if (difficultyLevel.get(i).equals("2"))
+            if (difficultyLevel.get(i) == (2))
             {
                 x = 1;
             }
-            if (difficultyLevel.get(i).equals("3"))
+            if (difficultyLevel.get(i) == (3))
             {
                 x = 1.5;
             }
 
-            if (diffcultyLevel.get(i).equals("4"))
-            {
-                credits += 0;
-            }
             if (letterGrade.get(i).equals("A+"))
             {
                 total+=((4.6 + x) * 5);
@@ -93,6 +90,6 @@ public class Main2 {
         }
 
     }
-    int GPA = total/credits;
+    GPA = total / credits;
     return GPA;
 }
