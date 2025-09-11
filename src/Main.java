@@ -6,7 +6,7 @@ public class Main
     {
         System.out.println("Hello, Welcome To The New School Year!");
         System.out.println("For the following questions please use a number that correlates to the difficulty of your class(1-Regular,2-Honors,3-AP");
-        System.out.println("");
+        System.out.println(" ");
 
         ArrayList<Integer> difficultyLevel = new ArrayList<Integer>();
 
@@ -28,7 +28,7 @@ public class Main
 
 
         Scanner sc = new Scanner(System.in);
-        {
+
             String name = "name";
 
 
@@ -91,93 +91,97 @@ public class Main
 
 
 
+    }
 
-        int gpa;
-        int x;
-        int total;
-        int credits;
-        int i;
-        for (i = 0; i < 7; i++)
+        public double main2(ArrayList<Integer> difficultyLevel, ArrayList<String> letterGrade)
         {
-            x = 0;
-            for (int h = 0; h < 1; h++){
-                if (difficultyLevel.get(i).equals(1))
-                {
-                    x = 0;
-                }
-                if (difficultyLevel.get(i).equals(2))
-                {
-                    x = 1;
-                }
-                if (difficultyLevel.get(i).equals(3))
-                {
-                    x = 1.5;
-                }
-                if (letterGrade.get(i).equals("A+"))
-                {
-                    total+=((4.6 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("A"))
-                {
-                    total+=((4.3 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("A-"))
-                {
-                    total+=((4 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("B+"))
-                {
-                    total+=((3.6 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("B"))
-                {
-                    total+=((3.3 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("B-"))
-                {
-                    total+=((3 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("C+"))
-                {
-                    total+=((2.6 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("C"))
-                {
-                    total+=((2.3 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("C-"))
-                {
-                    total+=((2 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("D+"))
-                {
-                    total+=((1.6 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("D"))
-                {
-                    total+=((1.3 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("D-"))
-                {
-                    total+=((1 + x) * 5);
-                    credits+=5;
-                }
-                if (letterGrade.get(i).equals("F"))
-                {
-                    total+=(0);
-                    credits+=5;
-                }
+
+            double gpa;
+            double x;
+            double total = 0;
+            double credits = 0;
+            int i;
+            for (i = 0; i < 7; i++)
+            {
+                x = 0;
+                for (int h = 0; h < 1; h++){
+                    if (difficultyLevel.get(i).equals(1))
+                    {
+                        x = 0;
+                    }
+                    if (difficultyLevel.get(i).equals(2))
+                    {
+                        x = 1;
+                    }
+                    if (difficultyLevel.get(i).equals(3))
+                    {
+                        x = 1.5;
+                    }
+                    if (letterGrade.get(i).equals("A+"))
+                    {
+                        total+=((4.6 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("A"))
+                    {
+                        total+=((4.3 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("A-"))
+                    {
+                        total+=((4 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("B+"))
+                    {
+                        total+=((3.6 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("B"))
+                    {
+                        total+=((3.3 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("B-"))
+                    {
+                        total+=((3 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("C+"))
+                    {
+                        total+=((2.6 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("C"))
+                    {
+                        total+=((2.3 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("C-"))
+                    {
+                        total+=((2 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("D+"))
+                    {
+                        total+=((1.6 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("D"))
+                    {
+                        total+=((1.3 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("D-"))
+                    {
+                        total+=((1 + x) * 5);
+                        credits+=5;
+                    }
+                    if (letterGrade.get(i).equals("F"))
+                    {
+                        total+=(0);
+                        credits+=5;
+                    }
                 }
 
             }
@@ -186,5 +190,4 @@ public class Main
 
 
         }
-    }
 }
