@@ -13,6 +13,7 @@ public class Main
         ArrayList<Integer> difficultyLevel = new ArrayList<Integer>();
 
 
+
         ArrayList<String> letterGrade = new ArrayList<>();
 
 
